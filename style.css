@@ -182,7 +182,7 @@ table {
 th, td {
     /* Стили для ячеек таблицы */
     /* font-family: "Inter", sans-serif; */
-    font-size: 14px!important;
+    font-size: 16px!important;
     font-weight: 400;
     color: #303030;
     border: 1px solid #95a1bb;
