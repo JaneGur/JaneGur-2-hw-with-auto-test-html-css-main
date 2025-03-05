@@ -80,35 +80,98 @@ select {
     background-repeat: no-repeat;
     background-position: right 10px center;
     padding-left: 12px; 
+    margin-top: 100px;
    
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 80px;
+    height: 57px;
+    background: #fff;
+    padding-left: 22px;
+    list-style-type: none;
+    list-style-image: url(/solar_map-arrow-up-bold.svg);
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 670px;
+    height: 57px;
+    background: #fff;
+    padding-left: 22px;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 4px;
+    width: 475px;
+    height: 19px;
+    background: #fff; */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
 }
 
 .text-field {
     /* Стили для односточного поля ввода текста */
+    width: 464px;
+    height: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0);
+
 }
 
 .btn {
     /* Стили для кнопки */
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
 }
 
 .line {
     /* Стили для линии */
+    margin: 60px 0;
 }
 
 table {
